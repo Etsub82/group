@@ -8,19 +8,19 @@ class IntroPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(//
     
-     backgroundColor:const Color.fromRGBO(252, 201, 110, 1),
+     backgroundColor:Color.fromARGB(255, 255, 255, 255),
      body:Center(
       child: Column(
         mainAxisAlignment:MainAxisAlignment.center,
         children: [
           Image.asset(
-            "lib/images/logo.jpg", height: 350,
+            "lib/images/image2.jpg", height: 350,
             ),
             Container(
               margin:const EdgeInsets.only(top:50),
               child: const Text(
                 "ASTU DELIVERY",
-                style: TextStyle(color:Color.fromRGBO(255, 105, 97, 1.0) ,
+                style: TextStyle(color:Color.fromRGBO(91, 71, 71, 1) ,
                 fontSize:35, 
                 fontWeight: FontWeight.bold,
                  ),

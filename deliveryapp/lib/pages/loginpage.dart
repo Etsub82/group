@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
          
           Padding(
             
-            padding: const EdgeInsets.only(top: 400),
+            padding: const EdgeInsets.only(top: 350),
             child: Container(
                
               decoration: const BoxDecoration(
@@ -68,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
                  ),
                       ),
                     const Padding(
-                      padding: EdgeInsets.only(top:20),
+                      padding: EdgeInsets.only(top:10),
                       child: TextField
                 (
                         decoration: InputDecoration(
@@ -100,7 +100,7 @@ class _LoginPageState extends State<LoginPage> {
                             )),
                                            ),
                      ),
-                   const SizedBox(height:20 ,),
+                   const SizedBox(height:15 ,),
                    const Align(
                       alignment:Alignment.centerRight ,
                       child: Text(
@@ -115,7 +115,7 @@ class _LoginPageState extends State<LoginPage> {
                   
                     ),
                  Padding(
-                   padding: const EdgeInsets.only(top: 20),
+                   padding: const EdgeInsets.only(top: 10),
                    child: Button(
                     text: "Login",
                     onTap:() {

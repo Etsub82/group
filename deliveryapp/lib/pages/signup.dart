@@ -29,7 +29,7 @@ class _SignUpPageState extends State<SignUpPage> {
          
           Padding(
             
-            padding: const EdgeInsets.only(top: 400),
+            padding: const EdgeInsets.only(top: 350),
             child: Container(
                
               decoration: const BoxDecoration(
@@ -91,7 +91,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       ),
                     ),
                      const Padding(
-                       padding: EdgeInsets.only(top: 20),
+                       padding: EdgeInsets.only(top: 10),
                        child: TextField(
                         obscureText: true,
                         decoration: InputDecoration(
@@ -121,7 +121,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   
                     ),
                  Padding(
-                   padding: const EdgeInsets.only(top: 20),
+                   padding: const EdgeInsets.only(top: 10),
                    child: Button(
                     text: "Sign Up",
                     onTap:() {

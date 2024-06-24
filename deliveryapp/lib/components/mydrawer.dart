@@ -1,4 +1,5 @@
 import 'package:deliveryapp/components/mydrawerlist.dart';
+import 'package:deliveryapp/pages/ProfilePage.dart';
 import 'package:deliveryapp/pages/loginpage.dart';
 import 'package:flutter/material.dart';
 import '../pages/settings_page.dart';
@@ -58,7 +59,7 @@ class MyDrawer extends StatelessWidget {
              Navigator.push(
               context,
               MaterialPageRoute(
-                builder:(context)=> const SettingsPage(),
+                builder:(context)=> const ProfilePage(),
                 ),
              );
           },

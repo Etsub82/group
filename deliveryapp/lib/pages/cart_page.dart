@@ -49,6 +49,7 @@ class _CartPageState extends State<CartPage> {
                     setState(() {
                       widget.cart.addItem(itemName, widget.cart.getPrice(itemName));
                     });
+                    
                   },
                 ),
               ],
